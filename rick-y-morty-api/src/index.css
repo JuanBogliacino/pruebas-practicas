@@ -1,0 +1,27 @@
+.container {
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.list-characters {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.ul-links {
+  text-decoration: none;
+  color: #000;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(35, 35, 194);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
