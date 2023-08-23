@@ -1,0 +1,72 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.task {
+  background-color: rgb(43, 226, 195);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 30px;
+  align-items: center;
+  width: 90%;
+  max-width: 300px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.selected {
+  background-color: rgb(28, 96, 243);
+  color: white;
+  border: none;
+}
+
+.filter-buttons {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 300px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+form {
+  margin: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 0 5px;
+}
