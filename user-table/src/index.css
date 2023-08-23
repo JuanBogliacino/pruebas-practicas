@@ -1,6 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
+}
+
+.container {
+  background-color: rgb(232, 235, 235);
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 table {
@@ -8,14 +25,37 @@ table {
   border-collapse: collapse;
 }
 th, td {
-  border: 1px solid #ccc;
+  border: 1px solid #646363;
   padding: 8px;
   text-align: left;
 }
 th {
-  background-color: #f2f2f2;
+  background-color: #cac7c7;
 }
 
 input {
   margin-bottom: 10px;
+  padding: 7px;
+  width: 100%;
+  position: relative;
+  top: 12px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  background-color: #adabab;
+}
+
+button {
+  padding: 5px;
+  background-color: rgb(243, 90, 90);
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(233, 66, 66);
 }
